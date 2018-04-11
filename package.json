@@ -1,0 +1,40 @@
+{
+  "name": "redux-simple-flash",
+  "version": "1.0.0",
+  "description": "Simple React/Redux Flash Messages",
+  "main": "lib/index.js",
+  "author": "Enrico Mischorr <enrico@mischorr.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/emischorr/redux-simple-flash#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emischorr/redux-simple-flash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/emischorr/redux-simple-flash/issues"
+  },
+  "keywords": [
+    "flash",
+    "redux",
+    "notification",
+    "react-component",
+    "react"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets babel-preset-env -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
